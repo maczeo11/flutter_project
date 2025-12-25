@@ -25,7 +25,7 @@ def get_db_connection():
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='my#sys()',  # Make sure this is the correct password for your MySQL setup
+            password='#####',  # Make sure this is the correct password for your MySQL setup
             database='data'
         )
         return conn
